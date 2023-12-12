@@ -3,12 +3,12 @@ REINFORCEMENT LEARNING FOR TRIPLE-WELL MODEL
 This file is to show how to use the codes for Reinforcement Learning for a triple-well potential (of the state s), by employing Q-table.
 According to [I], the Q-table Q(s,T,a), where s, T are states and a is action, is trained with N_epoch epochs, each epoch contains N_step steps of applying action a (changing T), in each step of N_step, the triple-well is called for a certain time and the last value of s is used for the next step.   
 
-If use the code, please refer to articles
-   (I)  Uyen Tu Lieu, and Natsuhiko Yoshinaga, "Dynamic control of self-assembly of quasicrystalline structures through reinforcement learning", (arXiv:2309.06869)
+If you use the code in your work, please cite the following reference
+   (I)  Uyen Tu Lieu and Natsuhiko Yoshinaga, "Dynamic control of self-assembly of quasicrystalline structures through reinforcement learning", submitted, https://arxiv.org/abs/2309.06869
 
 
 ### 1-STRUCTURE OF THE FILES ### 
-   (1) 	RF_3well.m   	main file (MATLAB)
+   (1) 	RL_3well.m   	main file (MATLAB)
   
 
 ### 2-TESTED ENVIRONMENT ###
@@ -20,7 +20,7 @@ We tested the codes in the following environments:
 
 ### 3-HOW TO USE ###
 *INPUT:
-   - For RF_3well.m (1), the input for RL is in line #4-14, input for the triple-well potential is in line #15-23
+   - For RL_3well.m (1), the input for RL is in line #4-14, input for the triple-well potential is in line #15-23
  	
 *OUTPUT: 
 After each epoch i, the output data is
